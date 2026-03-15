@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Autoestima y Autoaceptación</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <style>
+    /* Página */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      overflow-y: scroll;
+      scrollbar-width: none;
+    }
+    body::-webkit-scrollbar { display: none; }
+
+    /* Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1100;
+      background: rgba(255, 255, 255, 0.9);
+      transition: background .45s ease, color .45s ease;
+    }
+    .navbar-brand img { max-height: 50px; }
+
+    /* Padding navbar */
+    body { padding-top: 70px; }
+
+    /* Footer */
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0;
+      margin-top: auto;
+    }
+    .social-icons a { margin: 0 10px; color: #fff; text-decoration: none; font-size: 20px; }
+
+    /* Cards */
+    .card {
+      transition: all 0.4s ease;
+      border: none;
+      box-shadow: 0 0 0 rgba(0,0,0,0);
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .card img { transition: transform 0.4s ease; }
+    .card:hover img { transform: scale(1.05); }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img src="./static/img/AUTOESTIMA.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-black fw-bold" href="#marco-conceptual">Marco Conceptual</a></li>
+          <li class="nav-item"><a class="nav-link text-black fw-bold" href="#caracteristicas">Características</a></li>
+          <li class="nav-item"><a class="nav-link text-black fw-bold" href="#causas-consecuencias">Causas y Consecuencias</a></li>
+          <li class="nav-item"><a class="nav-link text-black fw-bold" href="#aportes">Aportes al Tema</a></li>
+          <li class="nav-item"><a class="nav-link text-black fw-bold" href="#tratamientos">Tratamientos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MARCO CONCEPTUAL -->
+  <section id="marco-conceptual" class="bg-light text-black py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-5 text-center">Marco Conceptual</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 text-center">
+          <img src="./static/img/CONCCEPTUAL.png" alt="Marco Conceptual" class="img-fluid rounded" style="max-height: 400px;">
+        </div>
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Concepto</p>
+          <p class="mb-4">La autoestima es el conjunto de percepciones, valoraciones y apreciaciones que una persona tiene sobre sí misma. Implica aceptarse, respetarse y reconocer el propio valor, influyendo directamente en la manera de pensar, sentir y actuar.</p>
+          
+          <p class="fw-bold mb-2">Autoaceptación</p>
+          <p class="mb-4">La autoaceptación es la capacidad de aceptarse de manera incondicional, reconociendo tanto fortalezas como limitaciones. No depende únicamente de logros o aprobación externa, sino de una actitud de respeto hacia uno mismo.</p>
+
+          <p class="fw-bold mb-2">Antecedentes</p>
+          <p class="mb-4">Teoría y estudio de Abraham Maslow de la conocida Pirámide de Maslow.</p>
+
+          <p class="fw-bold mb-2">Tipos de Autoestima</p>
+          <p class="mb-1">• Autoestima baja</p>
+          <p class="mb-1">• Autoestima alta inflada</p>
+          <p class="mb-4">• Autoestima saludable</p>
+
+          <p class="fw-bold mb-2">Tipos de Autoaceptación</p>
+          <p class="mb-1">• Incondicional</p>
+          <p class="mb-1">• Corporal</p>
+          <p class="mb-1">• Emocional</p>
+          <p class="mb-1">• Social</p>
+          <p class="mb-1">• Intelectual</p>
+          <p class="mb-4">• Moral</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARACTERÍSTICAS -->
+  <section id="caracteristicas" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-5 text-center">Características de la Autoestima y Autoaceptación</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Características de una autoestima saludable:</p>
+          <p class="fs-5 mb-4">Entre las cualidades importantes se encuentran la confianza en las propias capacidades, la capacidad de aceptar errores y el respeto hacia uno mismo, aspectos fundamentales para el crecimiento personal y profesional.</p>
+        </div>
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Características de una autoestima baja:</p>
+          <p class="fs-5 mb-4">La inseguridad sobre uno mismo se manifiesta mediante pensamientos negativos sobre las propias capacidades, miedo al fracaso o la crítica, compararse constantemente con otras personas, necesidad de aprobación ajena y dificultad para reconocer cualidades o logros propios.</p>
+        </div>
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Características de una correcta autoaceptación:</p>
+          <p class="fs-5 mb-4">Aceptarse con virtudes y defectos, mantener una visión realista de uno mismo, reconocer los errores como parte del aprendizaje, valorarse sin depender totalmente de la opinión de los demás, mantener respeto y comprensión hacia uno mismo y buscar el crecimiento personal y el bienestar emocional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAUSAS Y CONSECUENCIAS -->
+  <section id="causas-consecuencias" class="bg-light py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-5 text-center">Causas y Consecuencias</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Causas</p>
+          <p class="fs-5 mb-4">El desarrollo de la autoestima y la autoaceptación está influido por factores como experiencias en la infancia, comentarios positivos o negativos del entorno, comparaciones sociales, expectativas poco realistas y experiencias de éxito o fracaso.</p>
+        </div>
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Consecuencias</p>
+          <p class="fs-5 mb-4">La inseguridad sobre uno mismo se manifiesta mediante pensamientos negativos sobre las propias capacidades, miedo al fracaso o la crítica, compararse constantemente con otras personas, necesidad de aprobación ajena y dificultad para reconocer cualidades o logros propios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APORTES -->
+  <section id="aportes" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-5 text-center">Aportes al Tema</h2>
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Abraham Maslow</p>
+          <p class="fs-5 mb-2">Jerarquía de necesidades: Abraham Maslow propuso la teoría de la jerarquía de necesidades, donde la autoestima aparece como una necesidad importante para el desarrollo personal.</p>
+          <p class="fs-5 mb-2">Necesidad de autoestima: Maslow explicó que las personas necesitan sentirse valoradas, respetadas y competentes. Esta necesidad incluye el respeto propio y el reconocimiento de los demás.</p>
+          <p class="fs-5 mb-2">Relación con la autorrealización: Según Maslow, cuando una persona logra desarrollar una autoestima saludable, puede avanzar hacia la autorrealización, alcanzando su máximo potencial personal.</p>
+          <p class="fs-5 mb-4">Autoaceptación: Maslow señaló que las personas autorrealizadas suelen tener autoaceptación, aceptando sus cualidades y defectos sin rechazarse.</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="./static/img/TEORICO.png" alt="Maslow" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRATAMIENTOS -->
+  <section id="tratamientos" class="bg-light py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-5 text-center">Posibles Tratamientos</h2>
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Algunos de los posibles tratamientos son:</p>
+          <ul class="fs-5">
+            <li>Terapia psicológica</li>
+            <li>Practicar afirmaciones positivas</li>
+            <li>Tener un diario de gratitud</li>
+            <li>Desarrollar autocompasión</li>
+            <li>Fortalecer el diálogo interno positivo</li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="./static/img/IMAGE2.jpg" alt="Tratamientos" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONCLUSIÓN -->
+  <section id="conclusion" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-4 text-center">Conclusión</h2>
+      <p class="fs-5 mb-4 text-justify">
+        La autoestima y la autoaceptación son elementos fundamentales para nuestro bienestar psicológico y el desarrollo personal. La teoría de Maslow muestra que una percepción positiva y equilibrada de uno mismo nos permite enfrentar los diversos desafíos de la vida con mayor seguridad y estabilidad emocional. Por ello, fortalecer la autoestima y la autoaceptación resulta esencial para promover una mejor salud mental y una vida más plena.
+      </p>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    <p class="mb-2">© 2026 - Todos los derechos reservados</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+      <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
